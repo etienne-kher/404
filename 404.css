@@ -31,6 +31,7 @@ footer{
 		margin-top: 10px;
 		height: 25px;
 		margin-bottom: -40px;
+		font-family: 'Permanent Marker', cursive;
 	}
 main{
 	display: inline;
@@ -43,6 +44,7 @@ div{
 	margin-right: 10%;
     margin-left: 5%;
     color:#CE3440;
+    text-shadow: 7px 6px 5px black;
 }
 @keyframes tourne {
   0% { transform: translate(0px, 0px) rotate(0deg); }
@@ -92,6 +94,7 @@ p{
 	border-radius: 15px;
 	font-family: 'Permanent Marker', cursive;
 	text-align: center;
+	box-shadow: 7px 6px 5px ;
 }
 button{
 	width: 140px; 
@@ -99,12 +102,13 @@ button{
 	margin-left: 46%;
 	font-family: 'Permanent Marker', cursive;
 	background-color: wheat;
-
+	box-shadow: 7px 6px 5px ;
 }
 
 button:hover{
 	color:red;
 	font-size:15px;
+	box-shadow: 7px 6px 5px black;
 }
 #caché{display:none;}
 button:hover #caché{
